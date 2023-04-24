@@ -1,0 +1,26 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  p {
+    cursor: pointer;
+    font-family: "Bai Jamjuree";
+    padding: 4px 16px;
+    border-radius: 12px;
+    text-transform: capitalize;
+    color: rgba(86, 86, 90, 1);
+    border: 1px solid transparent;
+
+    &.active {
+      transition-duration: 0.3s;
+      color: white;
+      background: linear-gradient(
+        175.25deg,
+        rgba(158, 68, 255, 0.25) 6.56%,
+        rgba(84, 62, 255, 0.25) 103.97%
+      );
+      border: 1px solid rgba(158, 68, 255, 1);
+    }
+  }
+}

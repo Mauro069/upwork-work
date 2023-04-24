@@ -1,0 +1,45 @@
+.stepsContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .steps {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .step {
+      z-index: 3;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      border-radius: 50%;
+      font-family: Tomorrow;
+      font-weight: 600;
+      font-size: 16px;
+      background: #14172b;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+
+      &.current {
+        background: linear-gradient(175.25deg, #9e44ff 3.56%, #543eff 103.97%);
+      }
+
+      &.ready {
+        background: #6f9246;
+      }
+    }
+  }
+
+  .line {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 12px;
+
+    background: rgba(255, 255, 255, 0.05);
+  }
+}

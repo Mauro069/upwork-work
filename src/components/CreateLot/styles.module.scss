@@ -1,0 +1,55 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .title {
+    color: #ffffffe5;
+    font-family: "Bai Jamjuree";
+    font-weight: 600;
+    background: linear-gradient(0deg, #14172b, #14172b),
+      linear-gradient(
+        180deg,
+        rgba(236, 240, 255, 0.1) 0%,
+        rgba(0, 0, 0, 0) 100%,
+        rgba(59, 63, 87, 0) 100%
+      );
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+
+  img {
+    cursor: pointer;
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+
+  .persons {
+    height: 75px;
+  }
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: Tomorrow;
+
+  p {
+    color: #ffffffe5;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  span {
+    color: #ffffffb2;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}

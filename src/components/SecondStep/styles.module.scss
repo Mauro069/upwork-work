@@ -1,0 +1,38 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    font-weight: 600;
+    font-family: Tomorrow;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  img {
+    cursor: pointer;
+  }
+}
+
+.searchBarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  p {
+    font-weight: 600;
+    font-family: Tomorrow;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 5%;
+
+  button {
+    width: 50%;
+  }
+}

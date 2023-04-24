@@ -1,0 +1,81 @@
+.title {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Tomorrow;
+  margin: 0 auto;
+}
+
+.assets {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .asset {
+    width: 220px;
+    background: linear-gradient(0deg, #14172b, #14172b),
+      linear-gradient(
+        180deg,
+        rgba(236, 240, 255, 0.1) 0%,
+        rgba(59, 63, 87, 0) 100%
+      );
+    border: 1px solid rgba(236, 240, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    border-radius: 10px;
+    padding: 18px 0;
+
+    img {
+      width: 48px;
+      height: 48px;
+    }
+
+    span {
+      font-weight: 600;
+      font-size: 14px;
+      font-family: Tomorrow;
+      color: rgba(255, 255, 255, 0.7);
+    }
+  }
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  label {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Tomorrow;
+    color: rgba(255, 255, 255, 0.7);
+    opacity: 0.9;
+  }
+
+  input {
+    background: #14172b;
+    border-radius: 16px;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    font-family: "Tomorrow";
+    font-weight: 600;
+    font-size: 16px;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.9);
+      opacity: 0.9;
+    }
+  }
+}
+
+.buttons {
+  display: flex;
+  gap: 5%;
+
+  button {
+    width: 50%;
+  }
+}
